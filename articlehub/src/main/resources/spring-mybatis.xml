@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!-- 由于mybatis与spring整合,mybatis的配置意义不大,除了配别名外. -->
+<configuration>
+    <typeAliases></typeAliases>
+</configuration>
+

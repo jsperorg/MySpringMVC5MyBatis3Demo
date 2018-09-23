@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ah.dao.ArticleDao">
+
+    <insert id="insertArticle" parameterType="com.ah.model.Article">
+        INSERT INTO article (id,article_class,article_title,article_remark,article_content,article_from,article_publish_date,status,read_count)
+        VALUES (null,#{articleClass},#{articleTitle},#{articleRemark},#{articleContent},#{articleFrom},#{articlePublishDate},0,0)
+    </insert>
+
+</mapper>
